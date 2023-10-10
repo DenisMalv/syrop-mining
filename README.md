@@ -1,0 +1,2 @@
+# syrop-mining
+comercial project
