@@ -1,0 +1,82 @@
+.expirience {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    // background: linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,),
+    // linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,),
+    // linear-gradient(to right,  transparent 0%, transparent 49.99%, red 1px, transparent 50.1%, transparent 100%,);
+
+    &__container {
+        display: flex;
+        gap: 158px;
+
+        // background-image: url(../img/expirience_arrow.svg);
+        // background-repeat: no-repeat;
+        // background-position: top 35px left 50% ;
+        // background-size: contain;
+
+        min-height: 700px;
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: column;
+        gap: 54px;
+        position: relative;
+    }
+
+    &__study::before{
+        content: '';
+        position: absolute;
+        width: 700px;
+        height: 20px;
+        background-image: url(../img/expirience_arrow.svg);
+        background-repeat: no-repeat;
+        background-position: top 58px left 568px;
+        background-size: contain;
+
+        min-height: 700px;
+    }
+
+    &__item{
+        
+        min-width: 440px;
+        padding: 15px 22px;
+        box-shadow: var(--main-shadow);
+        border-radius: 8px;
+
+        line-height: 2;
+
+        position: relative;
+    }
+
+    &__description{
+       
+        &-company{
+            
+        }
+        &-position{
+            font-weight: 700;
+            font-style: 24px;
+            line-height: 1.8;
+        }
+        &-time{
+            
+        }
+    } 
+
+    & svg.study{
+        position: absolute;
+        top: 44px;
+        left: -122px;
+        width: 574px;
+        transform: scaleX(1.21);
+        
+    }
+    & svg.work{
+        position: absolute;
+        top: -16px;
+        right: -124px;
+        width: 550px;
+        transform: scaleX(1.16);
+    }
+}

@@ -1,2 +1,2 @@
-# syrop-mining
-comercial project
+# Landing resume
+
