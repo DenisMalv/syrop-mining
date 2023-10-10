@@ -1,0 +1,174 @@
+.input-custom__label {
+    display: flex;
+    align-items: center;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 5px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.input-custom__wrap-input {
+    position: relative;
+}
+.input-custom__input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    padding: 9px 12px;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+}
+.input-custom__right-info {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+/* ========== time picker ============== */
+.input-custom__time-drop {
+    position: absolute;
+    width: 150px;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+    background: rgb(21, 14, 34) !important;
+    border: 1px solid rgb(44, 38, 56) !important;
+    border-radius: 2px !important;
+    padding: 8px;
+    left: 0;
+    top: calc(100% + 8px);
+    z-index: 100;
+    display: none;
+}
+.input-custom__time-drop.input-custom__time-drop--active {
+    display: block;
+}
+.input-custom__time-drop-btn {
+    text-align: center;
+    width: 100%;
+    height: 32px;
+    background: linear-gradient(135deg, #FC12D0 0%, #9B2EFB 100%);
+    color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+.input-custom__time-drop-selects {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.input-custom__time-drop-select-first {
+    position: relative;
+    margin-right: 8px;
+}
+.input-custom__time-drop-select-first::after,
+.input-custom__time-drop-select-first::before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    right: -15px;
+}
+.input-custom__time-drop-select-first::after {
+    top: 22px;
+}
+.input-custom__time-drop-select-first::before {
+    top: 34px;
+}
+.input-custom__time-drop-select {
+    display: flex;
+    flex-direction: column;
+    background: #150E22;
+    border: 1px solid #1E1E1E;
+    width: 32px;
+    border-radius: 4px;
+}
+.input-custom__time-drop-select-input {
+    width: 100%;
+    text-align: center;
+    padding: 1px;
+    background: #150E22;
+    color: #fff;
+}
+.input-custom__time-drop-select-btn {
+    background: #150E22;
+    padding: 3px 0;
+    border-radius: 4px;
+}
+.input-custom__time-drop-btn-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+.input-custom__time-drop-btn-wrap .btn {
+    background: linear-gradient(135deg, #FC12D0 0%, #9B2EFB 100%);
+    color: #FFFFFF;
+    padding: 3px 6px;
+    font-size: 13px;
+}
+.time-picker{
+    position: relative;
+}
+
+.daterangepicker {
+    background: rgb(21, 14, 34) !important;
+    border: 1px solid rgb(44, 38, 56) !important;
+    border-radius: 2px !important;
+}
+.calendar-table {
+    background: #150E22 !important;
+}
+.daterangepicker.drop-up:after {
+    border-color: #150E22 !important;
+}
+.daterangepicker .calendar-table th,
+.daterangepicker .calendar-table td {
+    color: inherit !important;
+}
+.daterangepicker .calendar-table .next span,
+.daterangepicker .calendar-table .prev span {
+    border-color: #8d8d8d !important;
+}
+.daterangepicker select.monthselect,
+.daterangepicker select.yearselect {
+    background: transparent !important;
+    color: #c3c3c3 !important;
+}
+.daterangepicker td.off, .daterangepicker td.off.in-range, .daterangepicker td.off.start-date, .daterangepicker td.off.end-date {
+    background-color: #1f132c;
+}
+.daterangepicker td.active, .daterangepicker td.active:hover {
+    background: linear-gradient(135deg, #FC12D0 0%, #9B2EFB 100%);
+    border-color: transparent !important;
+    color: #fff !important;
+}
+.daterangepicker td.available:hover, .daterangepicker th.available:hover {
+    background: linear-gradient(135deg, #e865cf 0%, #801ada 100%);
+}
+.daterangepicker .drp-buttons {
+    border-top: 1px solid rgb(44, 38, 56) !important;
+}
+.daterangepicker:before,
+.daterangepicker:after {
+    display: none;
+}
+.time-picker.drop-to-top .input-custom__time-drop {
+    top: auto;
+    bottom: calc(100% + 8px);
+}

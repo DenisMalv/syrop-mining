@@ -1,0 +1,31 @@
+.btn.btn-primary {
+    color: var(--white);
+    background: var(--gradient-1);
+    border-radius: var(--defaultRaduis);
+}
+.btn--lg {
+    padding: 6px 15px;
+}
+.btn-icon {
+    display: flex;
+}
+.btn-icon:last-child {
+    margin-left: 8px;
+}
+
+.btn--bordered {
+    border: 1px solid var(--link-color-2);
+    color: var(--white);
+}
+.btn{
+    border-radius: var(--defaultRaduis);
+}
+.btn--sm {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 22px;
+    padding: 5px 14px;
+}
+.btn--md {
+    padding: 6px 15.5px;
+}
