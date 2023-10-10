@@ -1,0 +1,66 @@
+.widget-table {
+    display: flex;
+    flex-direction: column;
+}
+.table-wrapper, .table-wrapper .table {
+    width: 100%;
+}
+.table-wrapper {
+    border: 1px solid #292A2B;
+    overflow: hidden;
+}
+.table-wrapper .table {
+    border-collapse: collapse;
+    background: #150E22;
+}
+.table .table--head th, .table .table--head td {
+    border-bottom: 1px solid #292A2B;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.table .table--body tr:not(:last-child) td {
+    border-bottom: 1px solid #292A2B;
+}
+.table .table--body td {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.table th {
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+.table td {
+    padding: 20px;
+    white-space: nowrap;
+}
+
+.status {
+    display: flex;
+    padding: 4px 8px;
+    overflow: hidden;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    max-width: max-content;
+    white-space: nowrap;
+    background: transparent;
+}
+.status.--completed {
+    border: 1px solid #5BCE82;
+    color: #5BCE82;
+}
+.status.--failed {
+    border: 1px solid #E91A32;
+    color: #E91A32;
+}
+.status.--pending {
+    border: 1px solid #FFCD1A;
+    color: #FFCD1A;
+}

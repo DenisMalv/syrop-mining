@@ -1,0 +1,60 @@
+@media (max-width: 1199.98px) {
+
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 767.98px) {
+    .switches-payment__item {
+        width: 50%;
+    }
+    .bank-card-item {
+        width: 48%;
+    }
+    .bank-card-list {
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: space-between;
+    }
+    .withdraw-list__input-wrap {
+        flex-direction: column;
+    }
+    .withdraw-list__input {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .dashboard .content-body.p-30 {
+        padding: 15px;
+    }
+    .dashboard .mb-sm-15 {
+        margin-bottom: 15px;
+    }
+    .bank-card-item {
+        width: 100%;
+    }
+    .mb-sm-15 {
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
