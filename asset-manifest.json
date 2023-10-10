@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/landing_resume/static/css/main.54ca9de4.css",
+    "main.js": "/landing_resume/static/js/main.380d11e0.js",
+    "static/media/denis-hero.jpg": "/landing_resume/static/media/denis-hero.22f324cd3188d84a2a20.jpg",
+    "static/media/symbol-defs.svg": "/landing_resume/static/media/symbol-defs.38edb49921506b928a432df88ac835c9.svg",
+    "static/media/denis-contacts.jpg": "/landing_resume/static/media/denis-contacts.ab4e8f4f2f20bf6533d5.jpg",
+    "static/media/project-finder.jpg": "/landing_resume/static/media/project-finder.7380ca254fb2d178ae72.jpg",
+    "static/media/project-filmoteka.jpg": "/landing_resume/static/media/project-filmoteka.a40e672a1bbf63ceae21.jpg",
+    "static/media/project-courses.jpg": "/landing_resume/static/media/project-courses.df00e3173574d54e4120.jpg",
+    "static/media/project-wallet.jpg": "/landing_resume/static/media/project-wallet.8bb5c79d5c059953f0a9.jpg",
+    "static/media/work_expirience_string.svg": "/landing_resume/static/media/work_expirience_string.9fb34c315f294949b406b84de9ce5ca2.svg",
+    "static/media/hero-bg.svg": "/landing_resume/static/media/hero-bg.8c446f2eaf4bb175db4c.svg",
+    "static/media/study_expirience_string.svg": "/landing_resume/static/media/study_expirience_string.9d735e489cbe64fdd60a6dca7aebf453.svg",
+    "index.html": "/landing_resume/index.html",
+    "static/media/progect-bg.svg": "/landing_resume/static/media/progect-bg.a68662d70d65ad89f064.svg",
+    "static/media/skills_bg.svg": "/landing_resume/static/media/skills_bg.e4ccf2efb06970371ff4.svg",
+    "static/media/contacts-bg.svg": "/landing_resume/static/media/contacts-bg.59ac888366986590aeb1.svg",
+    "static/media/expirience_arrow.svg": "/landing_resume/static/media/expirience_arrow.18166bc2e971652db94b.svg",
+    "main.54ca9de4.css.map": "/landing_resume/static/css/main.54ca9de4.css.map",
+    "main.380d11e0.js.map": "/landing_resume/static/js/main.380d11e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54ca9de4.css",
+    "static/js/main.380d11e0.js"
+  ]
+}
